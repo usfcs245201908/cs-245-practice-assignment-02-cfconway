@@ -1,9 +1,3 @@
-/**
- * Practice02Test
- * Test and autograder for NQueens problem.
- * @author dgbrizan
- *
- */
 public class Practice02Test {
 
 	// This helps create and place 
@@ -25,7 +19,7 @@ public class Practice02Test {
 	    	// Can the class be instantiated?
 	    	nq = new NQueens(0);
     		grade += 5;
-    		System.out.println("[ +5%] NQueens class created successfully");
+    		System.out.println("[ +5%] NQueens class created successfully"); //done
 
     		// ... but should throw an error for board sizes smaller than 1
     		try {
@@ -33,7 +27,7 @@ public class Practice02Test {
     			System.out.println("[    ] NQueens class should check parameters are valid");
     		} catch (Exception e) {
     			grade += 5;
-        		System.out.println("[ +5%] NQueens checks board size parameter");
+        		System.out.println("[ +5%] NQueens checks board size parameter");//done
     		}
 	    	
 	    	// Test good cases: board sizes for which we expect to have a solution
@@ -67,3 +61,4 @@ public class Practice02Test {
     	test.testNQueens();
     }
 }
+
